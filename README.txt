@@ -1,14 +1,18 @@
 = amazon_product_lookup
 
-* FIX (url)
+
 
 == DESCRIPTION:
 
-FIX (describe your package)
+amazon_product_lookup is a gem to easily lookup products (primarily media products such as CD's, Books, DVD's etc.) via Amazon ECS using the product code (e.g. from a barcode). It uses the ECS gem to actually retrieve the data from amazon. 
+
+It also defines a lot of classes and methods to verify product codes, identify different code types and so on.
+
+It uses strategy to minimize the amazon queries similar to the lookups that Delicious Library (The OSX desktop program) does.
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+* Lookup not implemented
 
 == SYNOPSIS:
 
@@ -16,7 +20,7 @@ FIX (describe your package)
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+* ECS gem
 
 == INSTALL:
 
